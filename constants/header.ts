@@ -1,0 +1,6 @@
+import { SPACING } from "./theme";
+
+export const HEADER_LOGO_HEIGHT = 25 as const;
+export const HEADER_PADDING_TOP = SPACING.m;
+export const HEADER_PADDING_BOTTOM = SPACING.xs;
+export const HEADER_HEIGHT = HEADER_LOGO_HEIGHT + HEADER_PADDING_BOTTOM + HEADER_PADDING_TOP;

@@ -1,0 +1,6 @@
+import { LINE_HEIGHTS, SIZES, SPACING } from "./theme";
+
+export const FOOTER_FONT_SIZE = SIZES.small;
+export const FOOTER_LINE_HEIGHT = LINE_HEIGHTS.small;
+export const FOOTER_PADDING_VERTICAL = SPACING.m;
+export const FOOTER_HEIGHT = FOOTER_LINE_HEIGHT + (2*FOOTER_PADDING_VERTICAL);
